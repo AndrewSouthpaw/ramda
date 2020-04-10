@@ -2,7 +2,8 @@ import _curry2 from './internal/_curry2';
 
 
 /**
- * Retrieve the value at a given path.
+ * Retrieve the value at a given path. 
+ * When `Idx` is a negative integer, an `Array` is expected as the `obj`.
  *
  * @func
  * @memberOf R
